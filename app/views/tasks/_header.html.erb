@@ -3,11 +3,12 @@
   Daily-Dairy
  </div>
 </div>
+
 <div class="header-right">
- <div class="sign-up">
-   新規登録
- </div>
- <div class="sign-in">
-   ログイン
- </div>
+ <% if user_signed_in? %>
+  <%= link_to "ログアウト", user_registration_path, method: :delete, class: 'sign-out'%>
+ <% else %>
+  <%= link_to "新規登録", user_registration_path, method: :put, class: 'sign-up'%>
+  <%= link_to "ログイン", user_session_path, method: :post, class: 'sign-in'%>
+ <% end %>
 </div>
