@@ -113,7 +113,11 @@
   color: #666666;
   text-decoration: none;
 }
-
+.alert-warning{
+  width: 200px;
+  position: fixed; top:150px; right: 1230px;
+  color: red;
+}
 
 .new-middle {
   background-color: #e0ffff;
@@ -159,7 +163,7 @@
 }
 .form-control{
   padding: 10px;
-  margin: 5px;
+  margin: 2px;
 }
 input[type="text"] {
   width: 757px;
