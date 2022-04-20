@@ -66,7 +66,7 @@
 
 
 .middle {
-  background-color: aquamarine;
+  background-color: #e0ffff;
   height: 590px;
   width: 100vw;
 }
@@ -87,4 +87,96 @@
   padding: 10px;
   margin: 30px 200px 30px 1200px;
   text-decoration: none;
+}
+
+.new-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.new-header {
+  background-color: #008080;
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.new-header-left {
+  background-color: orange;
+  width: 280px;
+  height: 100vh;
+  text-align: center;
+  padding: 27px;
+}
+.new-app-name {
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+
+.new-middle {
+  background-color: #e0ffff;
+  height: 590px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-frame{
+  background-color: white;
+  width: 1000px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-name{
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-name{
+  font-size: 18px;
+}
+.form-pulldown{
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  display: flex;
+}
+.select-box{
+  background-color: white;
+  width: 100px;
+  margin-left: 3px;
+}
+.calender{
+  display: flex;
+  margin: 0 12px;
+}
+.form-control{
+  padding: 10px;
+  margin: 5px;
+}
+input[type="text"] {
+  width: 757px;
+  height: 35px;
+}
+.form_btn{
+  color: black;
+  background-color: white;
+  border: 2px solid lightblue;
+  width: 150px;
+  padding: 10px;
+  margin-left: 305px;
+}
+
+
+.new-under {
+  background-color: #008080;
+  height: calc(100vh - 710px);
+  width: 100vw;
 }
