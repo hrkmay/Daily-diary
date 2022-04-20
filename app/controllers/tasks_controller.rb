@@ -13,7 +13,6 @@ class TasksController < ApplicationController
    if @task.save
     redirect_to root_path
    else
-    @task = Task.new
     render :new
    end
   end

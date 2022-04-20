@@ -1,12 +1,13 @@
 
 <%= form_with model: @task, local: true do |f|%>
- <div class="form-name">
-  <h2>日記の投稿</h2>
- </div>
+ <%= render "shared/error_messages", model: f.object %>
+  <div class="form-name">
+   <h2>日記の投稿</h2>
+  </div>
 
- <div class="top-name">
-  日付
- </div>
+  <div class="top-name">
+    日付
+  </div>
 
  <div class="form-pulldown">
   <div class="calender">
