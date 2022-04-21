@@ -69,8 +69,45 @@
   background-color: #e0ffff;
   height: 590px;
   width: 100vw;
+  padding: 40px 160px;
+  overflow: scroll;
 }
+.middle-calender {
+  display: block;
+}
+.calender-all {
+  background-color: #e0f8ff;
+  font-family: cursive;
+  display: flex;
+}
+.calender-left {
+  margin-right: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.calender-day {
+  font-size: 30px;
+  font-family: cursive;
+}
+.calender-day2 {
+  font-size: 15px;
+}
+.calender-right {
 
+}
+.calender-upper {
+  margin-left: 290px;
+  font-size: 13px;
+
+}
+.calender-title {
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+.calender-sentence {
+  font-size: 14px;
+  font-family: Times New Roman;
+}
 
 .under {
   background-color: #FCD997;
