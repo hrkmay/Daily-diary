@@ -7,6 +7,9 @@
     <div class="calender-day">
      <%= task.day.name %><span class="calender-day2">日</span>
     </div>
+    <div class="calender-month">
+     <%= task.month.name %><span class="calender-month2">月</span>
+    </div>
    </div>
 
    <div class="calender-right">
@@ -24,7 +27,7 @@
     </div>
 
     <div class="calender-sentence">
-     <%= task.sentence %>
+     <%= task.sentence.slice(0...24) %>
     </div>
 
    </div>
