@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: #008080;
+  background-color: #FCD997;
   height: 120px;
   width: 100vw;
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .header-left {
-  background-color: orange;
+  background-color: #FCD997;
   width: 280px;
   height: 100vh;
   text-align: center;
@@ -21,12 +21,12 @@
 .app-name {
   font-size: 35px;
   font-weight: 900;
-  color: white;
+  color: #333333;
   text-decoration: none;
 }
 
 .header-right{
-  background-color: chocolate;
+  background-color: #FCD997;
   height: 120px;
   width: 400px;
   display: flex;
@@ -38,27 +38,25 @@
 .sign-up{
   font-size: 18px;
   font-weight: 150;
-  color: black;
-  border: 1px solid lightblue;
+  color: #333333;
+  border: 1px solid #333333;
   padding: 10px;
-  color: black;
   margin-right: 20px;
   text-decoration: none;
 }
 .sign-in{
   font-size: 18px;
   font-weight: 150;
-  color: black;
-  border: 1px solid lightblue;
+  color: #333333;
+  border: 1px solid #333333;
   padding: 10px;
-  color: black;
   text-decoration: none;
 }
 .sign-out{
   font-size: 18px;
   font-weight: 150;
-  color: black;
-  border: 1px solid lightblue;
+  color: #333333;
+  border: 1px solid #333333;
   padding: 10px;
   color: black;
   text-decoration: none;
@@ -66,9 +64,59 @@
 
 
 .middle {
-  background-color: #e0ffff;
+  background-color: #f8ffff;
   height: 590px;
   width: 100vw;
+  padding: 40px 160px;
+  overflow: scroll;
+}
+.middle-calender {
+  display: block;
+}
+.link{
+  color: #333333;
+  display: flex;
+  text-decoration: none;
+}
+.calender-all {
+  background-color: #f0ffff	;
+  font-family: cursive;
+  display: flex;
+  margin-bottom: 10px;
+}
+.calender-left {
+  margin-right: 50px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.calender-day {
+  font-size: 30px;
+  font-family: cursive;
+}
+.calender-day2 {
+  font-size: 15px;
+}
+.calender-month {
+  font-size: 19px;
+  font-family: cursive;
+}
+.calender-month2 {
+  font-size: 12px;
+}
+.calender-right {
+ margin-left: 10px;
+}
+.calender-upper {
+  margin-left: 500px;
+  font-size: 13px;
+}
+.calender-title {
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+.calender-sentence {
+  font-size: 14px;
+  font-family: Times New Roman;
 }
 
 
@@ -80,10 +128,10 @@
 .form {
   width: 150px;
   font-size: 20px;
-  color: azure;
+  color: #333333;
   display: flex;
   justify-content: center;
-  border: 1px solid lightblue;
+  border: 1px solid #333333;
   padding: 10px;
   margin: 30px 200px 30px 1200px;
   text-decoration: none;
@@ -94,14 +142,14 @@
   flex-direction: column;
 }
 .new-header {
-  background-color: #FCC765;
+  background-color: #FCD997;
   height: 120px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
 }
 .new-header-left {
-  background-color: #FCC765;
+  background-color: #FCD997;
   width: 280px;
   height: 100vh;
   text-align: center;
@@ -180,7 +228,7 @@ input[type="text"] {
 
 
 .new-under {
-  background-color: #FCC765;
+  background-color: #FCD997;
   height: calc(100vh - 710px);
   width: 100vw;
 }

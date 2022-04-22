@@ -1,0 +1,38 @@
+<ul class="middle-calender">
+
+ <% @tasks.each do |task| %>
+  <li class="calender-all">
+   <%= link_to task_path(task.id), {class: "link"}, method: :get do %>
+   <div class="calender-left">
+    <div class="calender-day">
+     <%= task.day.name %><span class="calender-day2">日</span>
+    </div>
+    <div class="calender-month">
+     <%= task.month.name %><span class="calender-month2">月</span>
+    </div>
+   </div>
+
+   <div class="calender-right">
+
+    <div class="calender-upper">
+     <%= task.year.name %>年
+     <%= task.month.name %>月
+     <%= task.day.name %>日
+     <%= task.dayofweek.name %>
+     <%= task.weather.name %>
+    </div>
+
+    <div class="calender-title">
+     <%= task.title %>
+    </div>
+
+    <div class="calender-sentence">
+     <%= task.sentence.slice(0...24) %>
+    </div>
+
+   </div>
+
+  </li>
+  <% end %>
+ <% end %>
+</ul>
