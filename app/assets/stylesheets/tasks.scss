@@ -163,7 +163,7 @@
 }
 .alert-warning{
   width: 200px;
-  position: fixed; top:150px; right: 1230px;
+  position: fixed; top: 150px; right: 1230px;
   color: red;
 }
 
@@ -232,3 +232,66 @@ input[type="text"] {
   height: calc(100vh - 710px);
   width: 100vw;
 }
+
+.show-wrapper {
+  background-color: white;
+  width: 1000px;
+  height: 570px;
+  padding: 16px 35px;
+  overflow: scroll;
+}
+.show-upper {
+  display: flex;
+  margin-bottom: 25px;
+}
+.show-month {
+  font-size: 60px;
+  font-family: cursive;
+  margin-right: 10px;
+  
+}
+.show-month2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.show-day {
+  font-size: 60px;
+  font-family: cursive;
+  margin-right: 10px;
+}
+.show-day2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.show-dayofweek {
+  font-size: 30px;
+  font-family: cursive;
+  margin: 35px 20px;
+}
+.show-weather {
+  font-size: 30px;
+  font-family: cursive;
+  margin: 35px 20px;
+}
+.show-down {
+  display: flex;
+  align-items: center;
+}
+.show-middle {
+ background-color: #e0ffff;
+ width: 950px;
+ height: 75px;
+ padding: 18px 25px;
+ font-size: 30px;
+}
+.show-down2 {
+  display: flex;
+  align-items: center;
+}
+.show-under {
+  background-color: white;
+  width: 950px;
+  margin-top: 20px;
+  padding: 18px 25px;
+ font-size: 18px;
+ }
