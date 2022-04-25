@@ -241,6 +241,7 @@ input[type="text"] {
   overflow: scroll;
 }
 .show-upper {
+  background-color: #e0ffff;
   display: flex;
   margin-bottom: 25px;
 }
@@ -278,7 +279,6 @@ input[type="text"] {
   align-items: center;
 }
 .show-middle {
- background-color: #e0ffff;
  width: 950px;
  height: 75px;
  padding: 18px 25px;
