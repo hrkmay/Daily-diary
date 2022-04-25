@@ -4,7 +4,7 @@ class Task < ApplicationRecord
   validates :day_id,              presence: true
   validates :dayofweek_id,        presence: true
   validates :weather_id,          presence: true
-  validates :title,               presence: true
+  validates :title, length: { minimum: 1, maximum: 24}, presence: true
   validates :sentence,            presence: true
 
 
