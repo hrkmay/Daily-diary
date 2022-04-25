@@ -21,6 +21,19 @@ class TasksController < ApplicationController
    end
   end
 
+  def edit
+    @task = Task.find(params[:id])
+  end
+
+  def update
+    @task.update(task_params)
+    redirect_to tasks_path
+  end
+
+  def destroy
+    @task = Task.find(params[:id])
+  end
+
  private
    def task_params
     params.require(:task).permit(:title, :sentence, :year_id, :month_id, :day_id, :dayofweek_id, :weather_id)

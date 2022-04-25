@@ -232,3 +232,101 @@ input[type="text"] {
   height: calc(100vh - 710px);
   width: 100vw;
 }
+<<<<<<< Updated upstream
+=======
+
+.show-wrapper {
+  background-color: white;
+  width: 1000px;
+  height: 570px;
+  padding: 16px 35px;
+  overflow: scroll;
+}
+.show-upper {
+  background-color: #e0ffff;
+  display: flex;
+  margin-bottom: 25px;
+}
+.show-month {
+  font-size: 60px;
+  font-family: cursive;
+  margin-right: 10px;
+  
+}
+.show-month2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.show-day {
+  font-size: 60px;
+  font-family: cursive;
+  margin-right: 10px;
+}
+.show-day2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.show-dayofweek {
+  font-size: 30px;
+  font-family: cursive;
+  margin: 35px 20px;
+}
+.show-weather {
+  font-size: 30px;
+  font-family: cursive;
+  margin: 35px 20px;
+}
+.show-down {
+  display: flex;
+  align-items: center;
+}
+.show-middle {
+ width: 950px;
+ height: 75px;
+ padding: 18px 25px;
+ font-size: 30px;
+}
+.show-down2 {
+  display: flex;
+  align-items: center;
+}
+.show-under {
+  background-color: white;
+  width: 950px;
+  margin-top: 20px;
+  padding: 18px 25px;
+ font-size: 18px;
+ }
+ .form-btn {
+   height: 50px;
+   width: 210px;
+   display: flex;
+   margin: 30px 10px 0px 1100px;
+ }
+.show-edit {
+  font-size: 18px;
+  font-weight: 150;
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.show-delete {
+  font-size: 18px;
+  font-weight: 150;
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.edit-form-btn {
+  color: black;
+  background-color: #fff0e0	;
+  border: 2px solid #FCC765;
+  width: 150px;
+  padding: 10px;
+  margin-left: 305px;
+}
+>>>>>>> Stashed changes
