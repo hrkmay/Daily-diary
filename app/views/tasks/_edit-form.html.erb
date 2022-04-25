@@ -1,7 +1,7 @@
 <%= form_with model: @task, local: true do |f|%>
  <%= render "shared/error_messages", model: f.object %>
   <div class="form-name">
-   <h2>日記の投稿</h2>
+   <h2>日記の編集</h2>
   </div>
 
   <div class="top-name">
@@ -39,6 +39,6 @@
   <%= f.label :sentence, "今日のできごと" %><br />
   <%= f.text_area :sentence, class: 'form-control',rows: "10", cols: "80" %>
  </div>
-  <%= f.submit "記録する", class: :form_btn %>
+  <%= f.submit "更新する", class: 'edit-form-btn' %>
 
 <% end %>

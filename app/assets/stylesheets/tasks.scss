@@ -294,4 +294,37 @@ input[type="text"] {
   margin-top: 20px;
   padding: 18px 25px;
  font-size: 18px;
+
  }
+ .form-btn {
+   height: 50px;
+   width: 210px;
+   display: flex;
+   margin: 30px 10px 0px 1100px;
+ }
+.show-edit {
+  font-size: 18px;
+  font-weight: 150;
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.show-delete {
+  font-size: 18px;
+  font-weight: 150;
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.edit-form-btn {
+  color: black;
+  background-color: #fff0e0	;
+  border: 2px solid #FCC765;
+  width: 150px;
+  padding: 10px;
+  margin-left: 305px;
+}
