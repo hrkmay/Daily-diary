@@ -328,3 +328,27 @@ input[type="text"] {
   padding: 10px;
   margin-left: 305px;
 }
+
+.reg-field{
+  margin-top: 15px;
+}
+.reg-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.reg-form {
+  padding: 3px;
+  margin-top: 3px;
+}
+.reg_form_btn{
+  color: black;
+  background-color: #fff0e0	;
+  border: 2px solid #FCC765;
+  width: 150px;
+  padding: 10px;
+  margin: 40px 0 0 305px;
+}
