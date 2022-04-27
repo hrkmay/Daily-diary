@@ -1,32 +1,18 @@
-<h2>Log in</h2>
 
-<%= form_with model: @user, url: user_session_path, local: true do |f| %>
+<div class="new-wrapper">
 
-  <div class="field">
-   <%= f.label :name %><br />
-   <%= f.text_field :name, autofocus: true, autocomplete: "name" %>
+ <div class="new-header">
+  <div class="new-header-left">
+   <%= link_to "Daily-Dairy", root_path, class: 'new-app-name'%>
   </div>
+ </div>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+ <div class="new-middle">
+  <div class="new-frame">
+   <%= render partial: "form" %>
   </div>
+ </div>
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
-
-  <% if devise_mapping.rememberable? %>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
-    </div>
-  <% end %>
-
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+ <div class="new-under">
+ </div>
+</div>
