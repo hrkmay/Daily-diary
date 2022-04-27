@@ -15,4 +15,5 @@ class Task < ApplicationRecord
   belongs_to_active_hash :dayofweek
   belongs_to_active_hash :weather
 
+  belongs_to :user
 end

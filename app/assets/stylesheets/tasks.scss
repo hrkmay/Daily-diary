@@ -339,7 +339,6 @@ input[type="text"] {
   font-size: 30px;
   font-weight: 600;
 }
-
 .reg-form {
   padding: 3px;
   margin-top: 3px;
@@ -351,4 +350,28 @@ input[type="text"] {
   width: 150px;
   padding: 10px;
   margin: 40px 0 0 305px;
+}
+
+.ses-form {
+  padding: 3px;
+  margin-top: 3px;
+}
+.ses-field{
+  margin-top: 15px;
+}
+.ses_form_btn{
+  color: black;
+  background-color: #fff0e0	;
+  border: 2px solid #FCC765;
+  width: 150px;
+  padding: 10px;
+  margin: 40px 0 0 305px;
+}
+.alert{
+  display: flex;
+  position: fixed; top: 150px; right: 1230px;
+  color: red;
+}
+.notice{
+  display: none;
 }
