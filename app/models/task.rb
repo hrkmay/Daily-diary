@@ -6,6 +6,7 @@ class Task < ApplicationRecord
   validates :weather_id,          presence: true
   validates :title, length: { minimum: 1, maximum: 24}, presence: true
   validates :sentence,            presence: true
+  validates :user_id,             presence: true
 
 
   extend ActiveHash::Associations::ActiveRecordExtensions
@@ -15,5 +16,5 @@ class Task < ApplicationRecord
   belongs_to_active_hash :dayofweek
   belongs_to_active_hash :weather
 
-  belongs_to :user
+  belongs_to :user, optional: true
 end
