@@ -89,6 +89,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
+
 .calender-day {
   font-size: 30px;
   font-family: cursive;
@@ -202,20 +203,28 @@
 }
 .select-box{
   background-color: white;
-  width: 100px;
+  width: 93px;
   margin-left: 3px;
 }
 .calender{
   display: flex;
-  margin: 0 12px;
+  padding-left: 2px;
+  margin: 0 10px;
+  border: 1px solid black;
 }
 .form-control{
   padding: 10px;
   margin: 2px;
+  border: 1px solid black;
 }
 input[type="text"] {
   width: 757px;
   height: 35px;
+}
+select {
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+  appearance: menulist;
 }
 .form_btn{
   color: black;
@@ -332,9 +341,10 @@ input[type="text"] {
 .reg-field{
   margin-top: 15px;
 }
-
-
-
+input[type="text"] {
+  width: 757px;
+  height: 35px;
+}
 .reg-title {
   display: flex;
   align-items: center;
@@ -345,7 +355,21 @@ input[type="text"] {
 .reg-form {
   padding: 3px;
   margin-top: 3px;
+  border: 1px solid black;
 }
+input[type="text"] {
+  width: 757px;
+  height: 35px;
+}
+input[type="email"] {
+  width: 757px;
+  height: 35px;
+}
+input[type="password"] {
+  width: 757px;
+  height: 35px;
+}
+
 .reg_form_btn{
   color: black;
   background-color: #fff0e0	;
@@ -358,6 +382,19 @@ input[type="text"] {
 .ses-form {
   padding: 3px;
   margin-top: 3px;
+  border: 1px solid black;
+}
+input[type="text"] {
+  width: 757px;
+  height: 35px;
+}
+input[type="email"] {
+  width: 757px;
+  height: 35px;
+}
+input[type="password"] {
+  width: 757px;
+  height: 35px;
 }
 .ses-field{
   margin-top: 15px;
